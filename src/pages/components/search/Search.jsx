@@ -16,7 +16,7 @@ const Search = () => {
     }
     //fetch the cities available
     const response = await fetch(
-      `http://api.weatherapi.com/v1/search.json?key=0cd40f3197f94ea2ad6165103233008&q=${search}`
+      `https://api.weatherapi.com/v1/search.json?key=0cd40f3197f94ea2ad6165103233008&q=${search}`
     );
     const data = await response.json();
 
@@ -28,7 +28,7 @@ const Search = () => {
   const getWeather = async () => {
     try {
       const response = await fetch(
-        `http://api.weatherapi.com/v1/current.json?key=0cd40f3197f94ea2ad6165103233008&q=${search}`
+        `https://api.weatherapi.com/v1/current.json?key=0cd40f3197f94ea2ad6165103233008&q=${search}`
       );
 
       const data = await response.json();
