@@ -48,7 +48,7 @@ const Search = () => {
 
   return (
     <>
-      <h2 className="text-center text-2xl pt-2">Enter the city below</h2>
+      <h2 className="text-center text-2xl pt-2">Enter the city name</h2>
       <div className="flex">
         <div className="w-3/4 mx-auto  ring-1 ring-inset ring-green-900 p-1 rounded mt-6">
           <div className="flex  ">
